@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import "./Todo.css";
 
 class Todo extends Component {
   render() {
     return (
-      <div style={{ display: "flex", columnGap: "10px", justifyContent: "space-between", padding: "0 10px" }}>
-        <p>Learn React State</p>
-        <button>Mark us complete</button>
+      <div className="container">
+        <p className="title">Learn React State</p>
+        <button className="btn">Mark us complete</button>
       </div>
     );
   }
